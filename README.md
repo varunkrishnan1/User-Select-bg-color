@@ -5,7 +5,7 @@ This project demonstrates a simple web page where a user can select a background
 ## Features
 
 - **Background Color Selection:** Users can choose from a predefined list of colors to change the background of the `home.html` page.
-- **Color Persistence:** The selected background color is saved using `localStorage` and is automatically applied when the page is reloaded.
+- **Color Persistence:** The selected background color is saved using `sessionStorage` and is automatically applied when the page is reloaded.
 - **User Welcome Message:** Displays a personalized welcome message to the user on the home page.
 
 ## Technologies Used
@@ -21,7 +21,7 @@ This project demonstrates a simple web page where a user can select a background
 - `home.html`: The main home page where the color selection functionality is implemented.
 - `index.html`: (Presumed to be a landing or initial page, not directly modified in this task)
 - `login.html`: (Presumed to be a login page, not directly modified in this task)
-- `script.js`: Contains the JavaScript logic for user login/registration (sessionStorage), background color change, and persistence (localStorage).
+- `script.js`: Contains the JavaScript logic for user login/registration (sessionStorage), background color change, and persistence (sessionStorage).
 - `style.css`: Custom CSS for styling the pages.
 - `assets/`: Directory containing images (`bg.jpg`, `bg1.jpg`).
 
@@ -58,7 +58,7 @@ The `script.js` file contains logic for user registration and login using `sessi
 2. Log in through `login.html`.
 3. Upon successful login, you would be redirected to `home.html`.
 
-**Note:** The login details are stored in `sessionStorage`, meaning they will be cleared when the browser session ends (e.g., closing the browser tab/window). The background color preference is stored in `localStorage` and will persist across browser sessions.
+**Note:** The login details and background color preference are stored in `sessionStorage`, meaning they will be cleared when the browser session ends (e.g., closing the browser tab/window).
 
 ## Contributing
 
