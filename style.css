@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#head1 {
+    color: black;
+}
+
+.form-control {
+    width: 300px;
+    position: relative;
+    left: 50px;
+}
+
+#head2 {
+    color: white;
+    font-family: "Caveat Brush", cursive;
+    font-size: 30px;
+}
+
+#nameOfUser {
+    color: blue;
+}
+
+#head3 {
+    font-size: 70px;
+    font-family: "Caveat Brush", cursive;
+}
+
+#para1 {
+    font-family: "Caveat Brush", cursive;
+    font-size: 25px;
+}
+
+select {
+    padding: 10px 40px 10px 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    border-radius: 20px;
+    box-shadow: rgba(233, 224, 224, 0.25) 0px 54px 55px,
+        rgba(41, 39, 39, 0.12) 0px -12px 30px, rgba(36, 34, 34, 0.12) 0px 4px 6px,
+        rgba(189, 185, 185, 0.17) 0px 12px 13px, rgba(29, 26, 26, 0.09) 0px -3px 5px;
+    font-family: "Comic Relief", system-ui;
+}
+
+select:hover {
+    border-color: #2ab300;
+}
+
+#colorChanged{
+    font-family: "Caveat Brush", cursive;
+    font-size: 40px;
+}

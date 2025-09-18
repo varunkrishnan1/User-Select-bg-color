@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Caveat+Brush&family=Comic+Relief:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hind:wght@300;400;500;600;700&family=Lexend+Deca:wght@100..900&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Pacifico&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&family=Special+Gothic+Expanded+One&family=Tektur:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<nav class="navbar bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <h4 id="head2">Home Page</h2>
+        </a>
+    </div>
+</nav>
+
+<body style="background-image: none;">
+
+    <div class="container">
+        <div class="text-center">
+
+            <div class="big"><br>
+                <h1 id="head3">Welcome <span id="nameOfUser"></span> to the Magical Home Page !!</h1>
+                <p id="para1"> When You select any <span style="color: blue;">Background-Color </span>then that will be
+                    completely
+                    applied to the whole page </p>
+            </div><br>
+
+            <div class="dropd">
+                <select onchange="colorChange(value)" name="Background-Color" id="dropdownBox">
+                    <option class="options" value="" disabled selected>Choose a Background color</option>
+                    <option class="options" value="red">Red</option>
+                    <option class="options" value="orange">Orange</option>
+                    <option class="options" value="green">Green</option>
+                    <option class="options" value="yellow">Yellow</option>
+                    <option class="options" value="pink">Pink</option>
+                </select>
+            </div><br><br>
+
+            <h1 id="colorChanged"></h1>
+
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+
+</html>
